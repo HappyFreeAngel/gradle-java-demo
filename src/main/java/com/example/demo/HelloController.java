@@ -8,7 +8,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index() {
-        return "Greetings from Spring Boot! 当前时间是:"+new java.util.Date();
+        return "范有用Greetings from Spring Boot! 当前时间是:"+new java.util.Date();
     }
 
 }
